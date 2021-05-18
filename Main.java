@@ -45,7 +45,6 @@ private static void findCombinationsUtil(int arr[], int index, int num, int redu
 
 		if (reducedNum == 0)
 		{
-			if ()
 			for (int i = 0; i < index; i++)
 				System.out.print(arr[i] + " ");
 			System.out.println();

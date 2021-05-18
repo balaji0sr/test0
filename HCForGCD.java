@@ -18,10 +18,11 @@ public class HCForGCD {
 		g = gcd(a, b);
 		System.out.println("GCD(" + a + " , " + b + ") = " + g);
 
-		a = 31;
-		b = 4;
-		g = gcd(a , b);
-		System.out.println("GCD(" + a + " , " + b + ") = " + g);
+	if (a != b ){
+		
+		
+		System.out.println(a + " " + b);
+	}
 
 	}
 }
